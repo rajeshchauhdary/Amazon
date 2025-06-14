@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Amazon-like header and nav with EN flag image -->
+<div style="background:#131921;padding:8px 0;display:flex;align-items:center;justify-content:space-between;">
+  <div style="display:flex;align-items:center;">
+    <a href="https://www.amazon.com/" target="_blank" style="margin-left:18px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height:32px;">
+    </a>
+    <span style="color:#fff;font-size:14px;margin-left:18px;">
+      Deliver to <b>Nepal</b>
+    </span>
+    <form action="https://www.amazon.com/s" method="GET" target="_blank" style="display:flex;align-items:center;margin-left:18px;">
+      <select name="i" style="height:32px;border-radius:4px 0 0 4px;border:none;padding:0 8px;">
+        <option value="aps">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="stripbooks">Books</option>
+        <option value="fashion">Fashion</option>
+      </select>
+      <input type="text" name="k" placeholder="Search Amazon" style="height:32px;width:220px;border:none;">
+      <button type="submit" style="height:32px;background:#febd69;border:none;padding:0 16px;border-radius:0 4px 4px 0;cursor:pointer;">
+        <span style="font-size:1.2em;">&#128269;</span>
+      </button>
+    </form>
+  </div>
+  <div style="display:flex;align-items:center;gap:18px;margin-right:18px;">
+    <a href="https://www.amazon.com/customer-preferences/country?ref_=icp_lop_mop_chg_ais" target="_blank" style="color:#fff;text-decoration:none;font-size:14px;display:flex;align-items:center;">
+      <img src="https://flagcdn.com/us.svg" alt="EN" style="height:16px;width:24px;margin-right:4px;border-radius:2px;border:1px solid #fff;"> EN
+    </a>
+    <a href="https://www.amazon.com/ap/signin" target="_blank" style="color:#fff;text-decoration:none;font-size:14px;margin-left:18px;">
+      Hello, sign in<br><b>Account & Lists</b>
+    </a>
+    <a href="https://www.amazon.com/gp/css/order-history" target="_blank" style="color:#fff;text-decoration:none;font-size:14px;margin-left:18px;">
+      Returns<br><b>& Orders</b>
+    </a>
+    <a href="https://www.amazon.com/gp/cart/view.html" target="_blank" style="color:#fff;text-decoration:none;font-size:14px;margin-left:18px;display:flex;align-items:center;">
+      <span style="font-size:1.5em;margin-right:4px;">&#128722;</span> Cart 0
+    </a>
+  </div>
+</div>
+
+<!-- Navigation bar -->
+<div style="background:#232f3e;padding:10px 0 10px 0;display:flex;align-items:center;">
+  <a href="https://www.amazon.com/gp/site-directory" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-weight:bold;font-size:15px;">
+    &#9776; All
+  </a>
+  <a href="https://www.amazon.com/gp/goldbox" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Today's Deals</a>
+  <a href="https://www.amazon.com/registries" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Registry</a>
+  <a href="https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Prime Video</a>
+  <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Gift Cards</a>
+  <a href="https://www.amazon.com/gp/help/customer/display.html" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Customer Service</a>
+  <a href="https://www.amazon.com/sell-products/" target="_blank" style="color:#fff;margin:0 18px;text-decoration:none;font-size:15px;">Sell</a>
+  <span style="flex:1"></span>
+  <a href="https://www.amazon.com/deals/electronics" target="_blank" style="color:#fff;margin:0 24px 0 0;text-decoration:none;font-weight:bold;font-size:15px;">
+    Shop deals in Electronics
+  </a>
+</div>
+    <div class="hero-section">
+        <div class="hero-message">
+            <p> You are in amazon.com There is an offer now <a href="https://amazon.in" target="_blank">Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+    <div class="shop-section" id="shopSection">
+        <!-- Boxes as before, add a button to each for "Add to Cart" -->
+        <!-- Health & Personal care -->
+<div class="box" style="background:#fff;border-radius:8px;width:240px;padding-bottom:20px;box-shadow:none;border:none;display:flex;flex-direction:column;align-items:center;">
+  <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Health & Personal care" style="width:100%;height:140px;object-fit:cover;margin-bottom:0;border-radius:0;">
+  <h2 style="font-size:1.2em;font-weight:700;margin:16px 0 0 0;align-self:flex-start;">Health & Personal care</h2>
+  <a href="https://www.amazon.com/s?k=health+personal+care" target="_blank" style="color:#00aaff;font-weight:500;display:block;margin:16px 0 0 0;text-align:center;">See more</a>
+  <button class="add-cart-btn" style="margin:12px 0 0 0;background:#ffd814;border:none;padding:8px 16px;border-radius:4px;font-weight:bold;cursor:pointer;display:block;">Add to Cart</button>
+</div>
+
+<div class="box" style="background:#fff;border-radius:8px;width:240px;padding-bottom:20px;box-shadow:none;border:none;display:flex;flex-direction:column;align-items:center;">
+  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Electronics" style="width:100%;height:140px;object-fit:cover;margin-bottom:0;border-radius:0;">
+  <h2 style="font-size:1.2em;font-weight:700;margin:16px 0 0 0;align-self:flex-start;">Electronics</h2>
+  <a href="https://www.amazon.com/s?k=electronics" target="_blank" style="color:#00aaff;font-weight:500;display:block;margin:16px 0 0 0;text-align:center;">See more</a>
+  <button class="add-cart-btn" style="margin:12px 0 0 0;background:#ffd814;border:none;padding:8px 16px;border-radius:4px;font-weight:bold;cursor:pointer;display:block;">Add to Cart</button>
+</div>
+
+<div class="box" style="background:#fff;border-radius:8px;width:240px;padding-bottom:20px;box-shadow:none;border:none;display:flex;flex-direction:column;align-items:center;">
+  <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80" alt="Books" style="width:100%;height:140px;object-fit:cover;margin-bottom:0;border-radius:0;">
+  <h2 style="font-size:1.2em;font-weight:700;margin:16px 0 0 0;align-self:flex-start;">Books</h2>
+  <a href="https://www.amazon.com/s?k=books" target="_blank" style="color:#00aaff;font-weight:500;display:block;margin:16px 0 0 0;text-align:center;">See more</a>
+  <button class="add-cart-btn" style="margin:12px 0 0 0;background:#ffd814;border:none;padding:8px 16px;border-radius:4px;font-weight:bold;cursor:pointer;display:block;">Add to Cart</button>
+</div>
+
+<div class="box" style="background:#fff;border-radius:8px;width:240px;padding-bottom:20px;box-shadow:none;border:none;display:flex;flex-direction:column;align-items:center;">
+  <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80" alt="Fashion" style="width:100%;height:140px;object-fit:cover;margin-bottom:0;border-radius:0;">
+  <h2 style="font-size:1.2em;font-weight:700;margin:16px 0 0 0;align-self:flex-start;">Fashion</h2>
+  <a href="https://www.amazon.com/s?k=fashion" target="_blank" style="color:#00aaff;font-weight:500;display:block;margin:16px 0 0 0;text-align:center;">See more</a>
+  <button class="add-cart-btn" style="margin:12px 0 0 0;background:#ffd814;border:none;padding:8px 16px;border-radius:4px;font-weight:bold;cursor:pointer;display:block;">Add to Cart</button>
+</div>
+    </div>
+    <div class="unused-div"></div>
+    <footer>
+        <div class="footer-backtotop" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top</div>
+        <div class="footer-main">
+            <ul>
+                <a href="https://www.aboutamazon.com/" target="_blank" class="footer-title">Get to Know Us</a>
+                <a href="https://www.amazon.jobs/" target="_blank">Careers</a>
+                <a href="https://www.aboutamazon.com/news" target="_blank">Blog</a>
+                <a href="https://www.aboutamazon.com/" target="_blank">About Amazon</a>
+                <a href="https://ir.aboutamazon.com/" target="_blank">Investor Relations</a>
+                <a href="https://www.amazon.com/devices" target="_blank">Amazon Devices</a>
+                <a href="https://www.amazon.science/" target="_blank">Amazon Science</a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.com/b?node=18190131011" target="_blank" class="footer-title">Make Money with Us</a>
+                <a href="https://www.amazon.com/sell-products/" target="_blank">Sell products on Amazon</a>
+                <a href="https://services.amazon.com/amazon-business.html" target="_blank">Sell on Amazon Business</a>
+                <a href="https://developer.amazon.com/" target="_blank">Sell apps on Amazon</a>
+                <a href="https://affiliate-program.amazon.com/" target="_blank">Become an Affiliate</a>
+                <a href="https://advertising.amazon.com/" target="_blank">Advertise Your Products</a>
+                <a href="https://kdp.amazon.com/" target="_blank">Self-Publish with Us</a>
+                <a href="https://www.amazon.com/amazon-hub" target="_blank">Host an Amazon Hub</a>
+                <a href="https://www.amazon.com/b?node=18190131011" target="_blank">&gt; See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.com/gp/browse.html?node=16218619011" target="_blank" class="footer-title">Amazon Payment Products</a>
+                <a href="https://www.amazon.com/credit/storecard/member" target="_blank">Amazon Business Card</a>
+                <a href="https://www.amazon.com/gp/rewards" target="_blank">Shop with Points</a>
+                <a href="https://www.amazon.com/gp/balance" target="_blank">Reload Your Balance</a>
+                <a href="https://www.amazon.com/gp/currency-converter" target="_blank">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <a href="https://www.amazon.com/gp/help/customer/display.html" target="_blank" class="footer-title">Let Us Help You</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=G6L2F5A7Y6YF4F2B" target="_blank">Amazon and COVID-19</a>
+                <a href="https://www.amazon.com/gp/css/homepage.html" target="_blank">Your Account</a>
+                <a href="https://www.amazon.com/gp/css/order-history" target="_blank">Your Orders</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201118010" target="_blank">Shipping Rates &amp; Policies</a>
+                <a href="https://www.amazon.com/gp/css/returns/homepage.html" target="_blank">Returns &amp; Replacements</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201452600" target="_blank">Manage Your Content and Devices</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html" target="_blank">Help</a>
+            </ul>
+        </div>
+        <div class="footer-locale">
+            <div class="footer-logo"></div>
+            <div class="footer-locale-selects">
+                <button onclick="window.open('https://www.amazon.com/', '_blank')">🌐 English</button>
+                <button onclick="window.open('https://www.amazon.com/', '_blank')">$ USD - U.S. Dollar</button>
+                <button onclick="window.open('https://www.amazon.com/', '_blank')">🇺🇸 United States</button>
+            </div>
+        </div>
+        <div class="footer-links">
+            <a href="https://music.amazon.com/" target="_blank">Amazon Music</a>
+            <a href="https://advertising.amazon.com/" target="_blank">Amazon Ads</a>
+            <a href="https://www.6pm.com/" target="_blank">6pm</a>
+            <a href="https://www.abebooks.com/" target="_blank">AbeBooks</a>
+            <a href="https://www.acx.com/" target="_blank">ACX</a>
+            <a href="https://www.amazon.com/sell-products/" target="_blank">Sell on Amazon</a>
+            <a href="https://www.veeqo.com/" target="_blank">Veeqo</a>
+            <a href="https://www.amazon.com/business" target="_blank">Amazon Business</a>
+            <a href="https://www.amazon.com/international-sales-offers/b?ie=UTF8&node=15529609011" target="_blank">AmazonGlobal</a>
+            <a href="https://www.amazon.com/services" target="_blank">Home Services</a>
+            <a href="https://www.audible.com/" target="_blank">Audible</a>
+            <a href="https://www.boxofficemojo.com/" target="_blank">Box Office Mojo</a>
+            <a href="https://www.goodreads.com/" target="_blank">Goodreads</a>
+            <a href="https://www.imdb.com/" target="_blank">IMDb</a>
+            <a href="https://pro.imdb.com/" target="_blank">IMDbPro</a>
+            <a href="https://kdp.amazon.com/" target="_blank">Kindle Direct Publishing</a>
+            <a href="https://videodirect.amazon.com/home/landing" target="_blank">Prime Video Direct</a>
+            <a href="https://www.shopbop.com/" target="_blank">Shopbop</a>
+            <a href="https://www.woot.com/" target="_blank">Woot!</a>
+            <a href="https://www.zappos.com/" target="_blank">Zappos</a>
+            <a href="https://ring.com/" target="_blank">Ring</a>
+            <a href="https://eero.com/" target="_blank">eero WiFi</a>
+            <a href="https://blinkforhome.com/" target="_blank">Blink</a>
+            <a href="https://ring.com/neighbors" target="_blank">Neighbors App</a>
+            <a href="https://www.amazon.com/subscribe-with-amazon" target="_blank">Amazon Subscription Boxes</a>
+            <a href="https://www.pillpack.com/" target="_blank">PillPack</a>
+        </div>
+        <div class="footer-copyright">
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508088" target="_blank">Conditions of Use</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank">Privacy Notice</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target="_blank">Consumer Health Data Privacy Disclosure</a>
+            <a href="https://www.amazon.com/adprefs" target="_blank">Your Ads Privacy Choices</a>
+            <br>
+            © 1996-2025, Amazon.com, Inc. or its affiliates
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
